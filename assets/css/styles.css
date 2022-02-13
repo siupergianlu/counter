@@ -59,12 +59,23 @@ button {
   color: #ffffff;
 }
 
+/*button:hover {
+  background-color: #ffffff;
+  color: #262626;
+}*/
 .counter-box {
   font-size: 400%;
 }
 
 .disappear {
   color: #262626;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  button:hover {
+    background-color: #ffffff;
+    color: #262626;
+  }
 }
 
 @media screen and (min-width: 600px) {
@@ -83,10 +94,5 @@ button {
 
   .header {
     margin-bottom: 7%;
-  }
-
-  button:hover {
-    background-color: #ffffff;
-    color: #262626;
   }
 }

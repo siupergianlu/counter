@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #262626;
+  font-family: "Press Start 2P", cursive;
+  color: #ffffff;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.counter-header,
+.counter-box,
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 10%;
+  height: 30px;
+}
+
+.buttons-box {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  height: auto;
+}
+
+.insert-coin,
+.remove-coin {
+  display: flex;
+  border: 2px solid #ffffff;
+  width: 40%;
+  height: 200%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 10px;
+  font-size: 0.9rem;
+}
+
+button {
+  background-color: transparent;
+  color: #ffffff;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: #262626;
+}
+.counter-box {
+  font-size: 400%;
+}
+
+.disappear {
+  color: #262626;
+}
+
+@media screen and (min-width: 600px) {
+  .insert-coin,
+  .remove-coin {
+    width: 20%;
+    height: 300%;
+  }
+
+  .insert-coin {
+    margin-left: 25%;
+  }
+  .remove-coin {
+    margin-right: 25%;
+  }
+
+  .header {
+    margin-bottom: 7%;
+  }
+}

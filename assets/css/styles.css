@@ -59,10 +59,6 @@ button {
   color: #ffffff;
 }
 
-button:hover {
-  background-color: #ffffff;
-  color: #262626;
-}
 .counter-box {
   font-size: 400%;
 }
@@ -87,5 +83,10 @@ button:hover {
 
   .header {
     margin-bottom: 7%;
+  }
+
+  button:hover {
+    background-color: #ffffff;
+    color: #262626;
   }
 }

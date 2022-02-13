@@ -59,10 +59,10 @@ button {
   color: #ffffff;
 }
 
-button:hover {
+/*button:hover {
   background-color: #ffffff;
   color: #262626;
-}
+}*/
 .counter-box {
   font-size: 400%;
 }
@@ -71,8 +71,15 @@ button:hover {
   color: #262626;
 }
 
-@media (hover: hover) and (pointer: fine) {
+@media (hover: hover) {
   button:hover {
+    background-color: #ffffff;
+    color: #262626;
+  }
+}
+
+@media (hover: none) {
+  button:active {
     background-color: #ffffff;
     color: #262626;
   }
